@@ -1,0 +1,7 @@
+.vscode/*
+node_modules/
+.DS_Store
+.idea/
+*.sqlite3
+__pycache__
+*.iml
