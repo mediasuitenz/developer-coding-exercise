@@ -1,16 +1,18 @@
 # Media Suite Coding Exercise
 We’d like you to build a blogging platform!
 
-This is a test of basic web development skills - a simple client and server.  We do this to check for a minimum required skill level, which can vary based on the position, and to give us something to talk about in the interview.
+This is designed as a relatively simple exercise to get some code we can talk about in our technical interview. Not all developers have code that they can share with us due to IP restrictions, and this provides a common scenario across all candidates that provides some level of objective measure.
 
 Please spend no more than two hours on this task.  We respect your time far too much to ask for more than that.  If you don’t finish, that’s fine, we’ll talk through what you have completed.
 
-Please fork [https://github.com/mediasuitenz/developer-coding-test](https://github.com/mediasuitenz/developer-coding-test) and either email us a link to your public repo or zip up the source code and send it in.  Please don’t include any `node_modules` folders, we'll regenerate dependencies as part running the code.  If you use Django and pull in extra dependencies, then please update the `requirements.txt`.
+Please fork [https://github.com/mediasuitenz/developer-coding-exercise](https://github.com/mediasuitenz/developer-coding-exercise) and either email us a link to your public repo or zip up the source code and send it in.  Please don’t include any `node_modules` folders, we'll regenerate dependencies as part running the code.  If you use Django and pull in extra dependencies, then please update the `requirements.txt`.
 
 If we can’t figure out how to get your application running, it’s been a waste of your time, so please include any instructions we might need to launch it.
 
+Please ask any questions you may have of your Media Suite contact. This is not a test of your ability to understand our written instructions, it really is just an opportunity to write some code.
+
 ## The Output
-It's okay for this application to look very basic. For example...
+It's okay for this application to look very basic, though this is up to you. For example...
 
 ### The list of posts
 ![List of Posts](./posts.png)
