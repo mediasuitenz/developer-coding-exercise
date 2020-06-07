@@ -24,12 +24,12 @@ app.get('/post/:slug', function (req, res) {
  *    slug: <article's slug>
  *  },
  *  ...
- * ] 
+ * ]
  */
 app.get('/posts', function (req, res) {
   // ... fill in you own code ...
 })
- 
+
 app.listen(3000, function () {
-  console.log('Dev app listening on port 3000!');
+  console.log('Dev app listening on port 3000!')
 })
