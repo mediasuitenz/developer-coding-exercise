@@ -18,10 +18,11 @@ It's okay for this application to look very basic, though this is up to you. For
 ![List of Posts](./posts.png)
 
 ### An individual post
-![An individual post](./post.png) 
+![An individual post](./post.png)
+**NOTE**: The post files are in Markdown format, but they should render in the browser as html.
 
 ## The Server
-* The `/assets/posts` folder contains text files with blog data in them.  The file name is the URL slug.
+* The `/assets/posts` folder contains text files with blog data in them. The file name is the URL slug.
 * The content of each file will be in the following format
 	```
 	===
@@ -36,7 +37,7 @@ It's okay for this application to look very basic, though this is up to you. For
 ```
 {
   post: {
-    content: “... markdown content…”,
+    content: “...blog post content...”,
     tags: ['word1', 'word2', ...]
   }
 }
@@ -48,5 +49,5 @@ It's okay for this application to look very basic, though this is up to you. For
 * The client code should consume JSON data from the API and present it as two pages: a List of Posts and an individual Post.
 * The tags should only be displayed on Post page, not on the List of Posts.
 * Please build the client in whatever Javascript technology you feel most comfortable with; native JS, Ember, React, etc.
-* Don’t worry about css, HTML mark-up, etc.  It purely needs to demonstrate that the javascript is consuming your API and turning the json into useful content on-screen.
+* Don’t worry about styling/making the site look good. It purely needs to demonstrate that the javascript is consuming your API and turning the json into useful content on-screen.
 * We recommend you start by building the API to provide data to the client, but leave out the tags functionality initially.  Come back and complete the tags when the rest of the application is working.
