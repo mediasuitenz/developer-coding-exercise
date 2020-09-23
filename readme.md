@@ -46,8 +46,8 @@ It's okay for this application to look very basic, though this is up to you. For
 * Please build the server in either Express or Django.
 
 ## The Client
-* The client code should consume JSON data from the API and present it as two pages: a List of Posts and an individual Post.
+* The client code should consume JSON data from the API and present it as two pages: a List of Posts and an individual Post. The URL should identify the page the user is on - i.e. a refresh should return the user to the same page, not return them to an initial location.
 * The tags should only be displayed on Post page, not on the List of Posts.
 * Please build the client in whatever Javascript technology you feel most comfortable with; native JS, Ember, React, etc.
 * Don’t worry about styling/making the site look good. It purely needs to demonstrate that the javascript is consuming your API and turning the json into useful content on-screen.
-* We recommend you start by building the API to provide data to the client, but leave out the tags functionality initially.  Come back and complete the tags when the rest of the application is working.
+* We recommend you start by building the API to provide data to the client, but leave out the tags functionality initially.  Come back and complete the tags when the rest of the application is working and if you have the time.
